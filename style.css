@@ -29,17 +29,16 @@ body{
 
 }
 .infoblock{
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 
 
 }
 
 .column{
   display: inline-block;
-  min-height: 100%;
   vertical-align: top;
 }
 li{
@@ -80,19 +79,23 @@ li a{
   background-color: white;
   margin-right:5px;
   padding:5px 10px;
+  margin-top:10px;
+  justify-content: center;
 }
 .dop-text{
   z-index: 10;
   position: fixed;
-  top: 67px;
+left:77vw;
+    top: 67px;
   font-size: 12px;
   width:300px;
   background-color: white;
   padding-top:5px;
   padding-left:10px;
-  padding:right:10px;
+  padding-right:10px;
   padding-bottom:0px;
   margin-bottom:0px;
+    margin-top:10px;
 }
 .short-info{
   border-bottom: 1px black dotted;
@@ -107,7 +110,6 @@ li a{
 .footer{
   position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-top:0px;
   background-color:#3d546f;
