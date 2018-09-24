@@ -32,7 +32,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-itpxs: center;
+  align-items: center;
 
 
 }
@@ -107,7 +107,7 @@ li a{
 .footer{
   position: relative;
   display: flex;
-  align-itpxs: center;
+  align-items: center;
   justify-content: center;
   margin-top:0px;
   background-color:#3d546f;
