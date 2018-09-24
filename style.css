@@ -1,0 +1,138 @@
+body{
+  background-color: #f0efef;
+  font-size:18px;
+  margin:0px;
+
+}
+
+.header{
+  width:100%;
+  height: auto;
+  background-color: white;
+}
+.header p{
+  font-size: 40px;
+  padding-top: 20px;
+  margin-top:-10px;
+  padding-bottom:0px;
+  margin-bottom:5px;
+  margin-left:100px;
+}
+.header a{
+  color:#3d546f;
+  text-decoration: none;
+}
+.separate{
+  height:5px;
+  width:auto;
+  background-color: #3d546f;
+
+}
+.infoblock{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-itpxs: center;
+
+
+}
+
+.column{
+  display: inline-block;
+  min-height: 100%;
+  vertical-align: top;
+}
+li{
+  list-style: none;
+}
+
+.razdeli{
+  background-color: #f0efef;
+  width:180px;
+  border-right:3px #3d546f solid;
+}
+.razdeli ul{
+  padding: 0px;
+  margin-top:10px;
+}
+
+.razdeli ul li{
+  padding:10px 20px;
+  margin-bottom:10px;
+  background-color: #e7e6e6;
+  border-bottom:3px #3d546f solid;
+}
+
+.razdeli ul li:hover{
+  background-color: #3d546f;
+}
+.razdeli ul li:hover .raz{
+  color:white;
+}
+li a{
+  text-decoration: none;
+  color:#3d546f;
+}
+
+.osn-text{
+  width:600px;
+  text-align: center;
+  background-color: white;
+  margin-right:5px;
+  padding:5px 10px;
+}
+.dop-text{
+  z-index: 10;
+  position: fixed;
+  top: 67px;
+  font-size: 12px;
+  width:300px;
+  background-color: white;
+  padding-top:5px;
+  padding-left:10px;
+  padding:right:10px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+.short-info{
+  border-bottom: 1px black dotted;
+}
+.links{
+  margin-top:5px;
+}
+.links a{
+  color:#3d546f;
+  text-decoration: none;
+}
+.footer{
+  position: relative;
+  display: flex;
+  align-itpxs: center;
+  justify-content: center;
+  margin-top:0px;
+  background-color:#3d546f;
+  color:white;
+  z-index: 100;
+}
+.footer ul{
+  margin:0px;
+}
+.footer ul li{
+  display: inline-block;
+  margin-left:5px;
+  vertical-align: middle;
+}
+.footer ul li p{
+  padding-right:5px;
+  border-right: 1px white solid;
+}
+
+.lox, .lox-2{
+  color:#3d546f;
+}
+.footer:hover .lox{
+  color:red;
+}
+.footer:active .lox-2{
+  color:green;
+}
